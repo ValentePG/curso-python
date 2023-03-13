@@ -1,0 +1,7 @@
+m = int(input('\033[7;97mDigite um valor em M:\033[m '))
+print('\033[7;97m{} metros equivale a {} centimetros\033[m'.format(m, (m*100)))
+print('\033[7;97m{} metros equivale a {} milimetros\033[m'.format(m, (m*1000)))
+print('\033[7;97m{} metros equivale a {} decimetros\033[m'.format(m, (m*10)))
+print('\033[7;97m{} metros equivale a {} decametro\033[m'.format(m, (m/10)))
+print('\033[7;97m{} metros equivale a {} hectometro\033[m'.format(m, (m/100)))
+print('\033[7;97m{} metros equivale a {} kilometros\033[m'.format(m, (m/1000)))
